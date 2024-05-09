@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">TicTac Game</string>
+    <string name="player_information">Player Information</string>
+    <string name="please_add_player_information">Please,Add Player Information....!!!</string>
+    <string name="first_player">First Player :</string>
+    <string name="player1">Player1</string>
+    <string name="second_player">Second Player :</string>
+    <string name="player2">Player2</string>
+    <string name="tic_tac_toe_blitz">Tic Tac Toe Blitz</string>
+</resources>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:layout_height="match_parent">
+    <TextView
+        android:padding="15dp"
+        android:background="@color/purple_500"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:text="@string/player_information"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="@string/please_add_player_information"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/cardview_dark_background"
+            android:layout_margin="10dp"
+            android:textSize="14sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:text="@string/first_player"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="15dp"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:textStyle="bold|normal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:id="@+id/firstPl1"
+            android:hint="@string/player1"
+            android:layout_marginStart="15dp"
+            android:textStyle="normal"
+            android:textColor="@color/black"
+            android:textSize="19sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:text="@string/second_player"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="15dp"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:textStyle="bold|normal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:id="@+id/firstPl2"
+            android:hint="@string/player2"
+            android:layout_marginStart="15dp"
+            android:textStyle="normal"
+            android:textColor="@color/black"
+            android:textSize="19sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>
